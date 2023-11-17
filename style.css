@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#menu_superior{
+    background-color: #303030;
+    color: #FFFFFF;
+    padding-top: 180px;
+    padding-bottom: 120px;
+    padding-left: 62px;
+}
+
+#titulo_superior{
+    font-weight: 600;
+    font-size: 60px;
+
+}
+#texto_superior{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+#menu_informativo{
+    background-color: #F9F9F9;
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding-top: 90px;
+    padding-left: 182px;
+    padding-bottom: 90px;
+}
+
+#numero_informativo{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+}
+
+#texto_informativo{
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+}
+
+#menu_com_foto{
+    background-color: #FFFFFF;
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 62px;
+    padding-bottom: 30px;
+
+}
+
+#titulo_menu_com_foto{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+#texto_menu_com_foto{
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+#menu_formulario{
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center
+}
+
+#titulo_menu_formulario{
+    padding-top: 75px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+input{
+    margin: 0 auto;
+    width: 508px;
+    height: 72px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 60px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #78480e;
+    color: #FFFFFF;
+    transform: translateY(-3px);
+    box-shadow: 0px 7px 14px #000000;
+    transition-duration: 0.3s;
+}
